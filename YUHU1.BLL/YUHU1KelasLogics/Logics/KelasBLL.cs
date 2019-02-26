@@ -8,5 +8,6 @@ namespace YUHU1.BLL.YUHU1KelasLogics.Logics
 {
     class KelasBLL
     {
+
     }
 }
