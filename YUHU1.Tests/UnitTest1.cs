@@ -9,6 +9,8 @@ namespace YUHU1.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            int a = 5;
+            int b = 9;
         }
     }
 }
