@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D9B30ECF-AA95-40FD-BEA0-1BB862CE559A}</ProjectGuid>
+    <ProjectGuid>{EDB76B0B-6889-477A-9539-11FA5A2E45AB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YUHU1.BLL</RootNamespace>
-    <AssemblyName>YUHU1.BLL</AssemblyName>
+    <RootNamespace>YUHU1.DataHelpers</RootNamespace>
+    <AssemblyName>YUHU1.DataHelpers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,8 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer">
@@ -48,29 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Kelas\Logics\KelasBLL.cs" />
-    <Compile Include="Kelas\MapperProfile\KelasMapper.cs" />
-    <Compile Include="Kelas\Models\KelasDto.cs" />
+    <Compile Include="DataResult.cs" />
+    <Compile Include="GenericRepository.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\YUHU1-WEB\YUHU1-WEB.csproj">
-      <Project>{dca9a5f3-0693-4743-8049-41a33681814b}</Project>
-      <Name>YUHU1-WEB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\YUHU1.DAL\YUHU1.DAL.csproj">
-      <Project>{c9f43d15-1109-4365-b235-44f1fd6b25fa}</Project>
-      <Name>YUHU1.DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\YUHU1.Tests\YUHU1.Tests.csproj">
-      <Project>{1d2cc5f4-e94e-4427-818d-05ed1d592b17}</Project>
-      <Name>YUHU1.Tests</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Siswa\Logics\" />
-    <Folder Include="Siswa\MapperProfile\" />
-    <Folder Include="Siswa\Models\" />
+    <Compile Include="StatusResult.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

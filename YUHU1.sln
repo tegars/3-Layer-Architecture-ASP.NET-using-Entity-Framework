@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YUHU1.DAL", "YUHU1.DAL\YUHU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YUHU1.BLL", "YUHU1.BLL\YUHU1.BLL.csproj", "{D9B30ECF-AA95-40FD-BEA0-1BB862CE559A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YUHU1.DataHelpers", "YUHU1.DataHelpers\YUHU1.DataHelpers.csproj", "{EDB76B0B-6889-477A-9539-11FA5A2E45AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D9B30ECF-AA95-40FD-BEA0-1BB862CE559A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9B30ECF-AA95-40FD-BEA0-1BB862CE559A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9B30ECF-AA95-40FD-BEA0-1BB862CE559A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB76B0B-6889-477A-9539-11FA5A2E45AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB76B0B-6889-477A-9539-11FA5A2E45AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB76B0B-6889-477A-9539-11FA5A2E45AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB76B0B-6889-477A-9539-11FA5A2E45AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
