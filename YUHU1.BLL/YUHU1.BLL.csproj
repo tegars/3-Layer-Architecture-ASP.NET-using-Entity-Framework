@@ -30,6 +30,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,7 +48,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Kelas\KelasBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YUHU1-WEB\YUHU1-WEB.csproj">
+      <Project>{dca9a5f3-0693-4743-8049-41a33681814b}</Project>
+      <Name>YUHU1-WEB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YUHU1.DAL\YUHU1.DAL.csproj">
+      <Project>{c9f43d15-1109-4365-b235-44f1fd6b25fa}</Project>
+      <Name>YUHU1.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YUHU1.Tests\YUHU1.Tests.csproj">
+      <Project>{1d2cc5f4-e94e-4427-818d-05ed1d592b17}</Project>
+      <Name>YUHU1.Tests</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

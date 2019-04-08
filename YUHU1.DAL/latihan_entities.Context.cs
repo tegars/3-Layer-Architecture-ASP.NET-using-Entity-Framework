@@ -13,10 +13,10 @@ namespace YUHU1.DAL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class YUHUEntities : DbContext
+    public partial class Entities : DbContext
     {
-        public YUHUEntities()
-            : base("name=YUHUEntities")
+        public Entities()
+            : base("name=Entities")
         {
         }
     

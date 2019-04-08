@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="5c0bc1e6898944fea6230339a7377b7b" Name="Diagram1">
+      <Diagram DiagramId="28f04d19462a475fa63c79b1f4b0c4a9" Name="Diagram1">
         <EntityTypeShape EntityType="YUHUModel.Kelas" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="YUHUModel.Siswa" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
       </Diagram>

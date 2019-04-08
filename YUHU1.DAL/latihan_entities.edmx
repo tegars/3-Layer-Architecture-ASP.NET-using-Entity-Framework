@@ -46,7 +46,7 @@
           <Property Name="Alamat" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
           <Property Name="KelasId" Type="Int32" />
         </EntityType>
-        <EntityContainer Name="YUHUEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Kelas" EntityType="Self.Kelas" />
           <EntitySet Name="Siswa" EntityType="Self.Siswa" />
         </EntityContainer>
@@ -55,7 +55,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="YUHUModelStoreContainer" CdmEntityContainer="YUHUEntities">
+        <EntityContainerMapping StorageEntityContainer="YUHUModelStoreContainer" CdmEntityContainer="Entities">
           <EntitySetMapping Name="Kelas">
             <EntityTypeMapping TypeName="YUHUModel.Kelas">
               <MappingFragment StoreEntitySet="Kelas">
