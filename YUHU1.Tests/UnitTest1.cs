@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-//namespace YUHU1.BLL.Kelas;
-
+using YUHU1.BLL.KelasBLL;
+using AutoMapper;
+using YUHU1.BLL.Kelas.MapperProfile;
 namespace YUHU1.Tests
 {
     [TestClass]
@@ -11,15 +11,15 @@ namespace YUHU1.Tests
         [TestMethod]
         public void TestKelas()
         {
-            //KelasBll coba = new KelasBll();
-
-
+            Mapper.Initialize(map =>
+            {
+                map.AddProfile<KelasMapper>();
+            });
             int a = 5;
             int b = 9;
 
-            //coba panggil BLL
-
-
+            KelasBLL _kelasBLL = new KelasBLL();
+            var c= _kelasBLL.GetAll();
         }
         [TestMethod]
         public void TestSiswa() {

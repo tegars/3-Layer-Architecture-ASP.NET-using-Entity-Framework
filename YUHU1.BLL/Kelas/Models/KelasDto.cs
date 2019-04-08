@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace YUHU1.BLL.Kelas.Models
 {
-    class KelasDto
+    public class KelasDto
     {
+        public int Id { get; set; }
+        public string Nama { get; set; }
     }
 }

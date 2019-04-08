@@ -4,9 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using AutoMapper;
+using YUHU1.BLL.Kelas.Models;
+using YUHU1.DAL;
+
+
 namespace YUHU1.BLL.Kelas.MapperProfile
 {
-    class KelasMapper
+    public class KelasMapper : Profile
     {
+        public KelasMapper() {
+            CreateMap<YUHU1.DAL.Kelas, KelasDto>().ReverseMap();
+        }
     }
 }
