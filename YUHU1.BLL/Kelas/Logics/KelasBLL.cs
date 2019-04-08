@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 using YUHU1.DAL;
 using YUHU1.DataHelpers;
 using System.Linq.Expressions;
-namespace YUHU1.BLL.Kelas
+namespace YUHU1.BLL.KelasBLL
 {
     class KelasBLL
     {
-        private UnitOfWork _unitOfWork;
-        IRepository<Kelas> _masterPicRepo = null;
+        private UnitOfWork _uow;
+        IRepository<YUHU1.DAL.Kelas> _repo = null;
 
         public KelasBLL()
         {
-            _unitOfWork = new UnitOfWork(new SIRS_Entities());
-            _masterPicRepo = _unitOfWork.Repository<MasterPIC>();
+            _uow = new UnitOfWork(new Entities());
+            _repo = _uow.Repository<YUHU1.DAL.Kelas>();
         }
     }
 }

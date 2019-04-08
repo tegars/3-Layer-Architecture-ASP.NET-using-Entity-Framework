@@ -62,6 +62,10 @@
       <Project>{c9f43d15-1109-4365-b235-44f1fd6b25fa}</Project>
       <Name>YUHU1.DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\YUHU1.DataHelpers\YUHU1.DataHelpers.csproj">
+      <Project>{edb76b0b-6889-477a-9539-11fa5a2e45ab}</Project>
+      <Name>YUHU1.DataHelpers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YUHU1.Tests\YUHU1.Tests.csproj">
       <Project>{1d2cc5f4-e94e-4427-818d-05ed1d592b17}</Project>
       <Name>YUHU1.Tests</Name>
