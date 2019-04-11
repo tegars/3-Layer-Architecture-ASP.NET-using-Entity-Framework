@@ -1,5 +1,5 @@
-# 3-Layer-Architecture-ASP.NET-using-Entity-Framework
-Implementation 3 Architecture Layer in ASP.NET Using Entity Framework 
+# Implementation 3 Architecture Layer in ASP.NET Using Entity Framework
+List Layer
 <ol>
 <li>DAL (Data Access Layer)</li>
 <li>BLL (Bisnis Logic Layer)</li>
