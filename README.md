@@ -1,5 +1,5 @@
 # Implementation 3 Architecture Layer in ASP.NET Using Entity Framework
-Stucture: 
+Structure: 
 <img src="https://i.stack.imgur.com/JodLo.png">
 <ol>
 <li>DAL (Data Access Layer)</li>
