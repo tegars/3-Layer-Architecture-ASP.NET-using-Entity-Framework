@@ -6,4 +6,5 @@ Structure:
 <li>BLL (Bisnis Logic Layer) && Integrate with Data Helpers</li>
 <li>Aplication Layer</li>
 </ol>
-
+<hr/> <br/>
+-like algorithm
