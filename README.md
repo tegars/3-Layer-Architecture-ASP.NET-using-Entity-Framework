@@ -1,9 +1,9 @@
 ### Implementation 3 Architecture Layer
 Description: 
-<ol>
+<ul>
 <li>ASP.NET</li>
 <li>Entity Framework</li>
-</ol>
+</ul>
 <br/>
 Structure: 
 <ol>
