@@ -6,7 +6,7 @@
 </ol>
 <i>Preparation:</i> 
 <ul>
-  <li>Entity Framework 3.0</li>
+  <li>Entity Framework 3.0 , EF.Design & EF.Tools</li>
   <li>ASP.NET MVC Web Application Visual C#</li>  
   <li>ASP.NET Framework 4.5</li>
   <li>Visual Studio 2017</li>
